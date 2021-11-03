@@ -1,0 +1,17 @@
+.curve{
+    border-top-left-radius: 5%;
+    border-top-right-radius: 3%;
+}
+
+.skew{
+    transform: skewY(-1deg); 
+}
+#input{
+    width:58%;
+}
+
+@media (max-width:768px){
+    #input{
+        width: 100%;
+    }
+}
